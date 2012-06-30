@@ -153,7 +153,7 @@ if __name__ == "__main__":
 	if len(sys.argv) < 2:
 		print('Usage: %s STRING' % sys.argv[0])
 		sys.exit(1)
-	enc = Encoder(True).encode(sys.argv[1])
+	enc = Encoder().encode(sys.argv[1])
 	print('Length: %d chars' % len(enc))
 	print('')
 	print(enc)
