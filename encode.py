@@ -137,7 +137,7 @@ class Encoder:
 		for c in string:
 			if c not in ALPHANUM:
 				c_str = self._flush_c_str(result, c_str)
-				result.append("'%s'" % c)
+				result.append("'%s'" % c.replace("'", "\\'"))
 			elif c not in CHARS:
 				c_str += c
 			else:
