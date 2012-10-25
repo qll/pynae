@@ -4,9 +4,10 @@ import sys, re, math
 
 
 # nonalpha way of creating True and False
-TRUE  = "''==''"
+TRUE  = "[]<''"
 FALSE = "''<''"
 SET   = "{%s}" % FALSE
+SET   = "{''}"
 
 # chars which can be created without the use of %c
 CHARS = "FTaelrstu0123456789"
