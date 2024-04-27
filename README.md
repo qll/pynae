@@ -1,12 +1,12 @@
 pynae
 =====
 
-pynae is a Python string encoder. It is possible to create Python
-strings using only non-alphanumeric characters. This is a quick
-implementation I've hacked together after finding a way to create
-arbitrary strings with this. Creating such strings manually will
-give you shorter results most of the time, but this script should
-do well enough to save you some time.  
+pynae is a **Python 2** string encoder. It is possible to create
+Python 2 strings using only non-alphanumeric characters. This is a
+quick implementation I've hacked together after finding a way to
+create arbitrary strings with this. Creating such strings manually
+will give you shorter results most of the time, but this script
+should do well enough to save you some time.  
   
 So why would you want to encode your Python strings with nonalpha
 characters? I really don't have a clue yet, but it might help you
